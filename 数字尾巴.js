@@ -30,7 +30,7 @@ async function createWidget(res) {
 		var group = res.items;
 		items = [];
 		urls = [];
-		for(var i = 0; i < 6; i++) {
+		for(var i = 0; i <= 6; i++) {
 			var item = group[i].title;
 			var biliurl = group[i].link;
 			items.push(item);
@@ -65,7 +65,7 @@ async function createWidget(res) {
 
 async function getinfo() {
 	const rssRequest = {
-		url: "https://api.rss2json.com/v1/api.json?api_key=flj4qvtrkpyqebwtaqsoxk3uy5yhf8tphnhnshk8&count=6&rss_url=" +
+		url: "https://api.rss2json.com/v1/api.json?api_key=flj4qvtrkpyqebwtaqsoxk3uy5yhf8tphnhnshk8&count=7&rss_url=" +
 			encodeURIComponent(rsslink),
 	};
 	const res = await $.get(rssRequest);
