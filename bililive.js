@@ -30,7 +30,7 @@ async function createWidget(res) {
 		var group = res.items;
 		items = [];
 		urls = [];
-		for(var i = 0; i <= 6; i++) {
+		for(var i = 0; i <= 16; i++) {
 			var item = group[i].title;
 			var biliurl = group[i].link;
 			items.push(item);
@@ -49,7 +49,16 @@ async function createWidget(res) {
 				text5: { text : `• ${items[4]}`, url: urls[4] },
 				text6: { text : `• ${items[5]}`, url: urls[5] },
 				text7: { text : `• ${items[6]}`, url: urls[6] },
-				
+				text8: { text : `• ${items[7]}`, url: urls[7] },
+				text9: { text : `• ${items[8]}`, url: urls[8] },
+				text10: { text : `• ${items[9]}`, url: urls[9] },
+				text11: { text : `• ${items[10]}`, url: urls[10] },
+				text12: { text : `• ${items[11]}`, url: urls[11] },
+				text13: { text : `• ${items[12]}`, url: urls[12] },
+				text14: { text : `• ${items[13]}`, url: urls[13] },
+				text15: { text : `• ${items[14]}`, url: urls[14] },
+				text16: { text : `• ${items[15]}`, url: urls[15] }, 
+				text17: { text : `• ${items[16]}`, url: urls[16] }, 
 				
 				
 				battery: "true",
@@ -65,7 +74,7 @@ async function createWidget(res) {
 
 async function getinfo() {
 	const rssRequest = {
-		url: "https://api.rss2json.com/v1/api.json?api_key=flj4qvtrkpyqebwtaqsoxk3uy5yhf8tphnhnshk8&count=7&rss_url=" +
+		url: "https://api.rss2json.com/v1/api.json?api_key=flj4qvtrkpyqebwtaqsoxk3uy5yhf8tphnhnshk8&count=18&rss_url=" +
 			encodeURIComponent(rsslink),
 	};
 	const res = await $.get(rssRequest);
