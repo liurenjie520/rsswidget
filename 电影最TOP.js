@@ -65,7 +65,7 @@ async function createWidget(res) {
 
 async function getinfo() {
 	const rssRequest = {
-		url: "https://api.rss2json.com/v1/api.json?api_key=5ftufd58cwsriwlqozmec5fjliaa479brtt3dra6&count=7&rss_url=" +
+		url: "https://api.rss2json.com/v1/api.json?rss_url=" +
 			encodeURIComponent(rsslink),
 	};
 	const res = await $.get(rssRequest);
