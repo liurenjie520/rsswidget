@@ -30,7 +30,7 @@ async function createWidget(res) {
 		var group = res.items;
 		items = [];
 		urls = [];
-		for(var i = 0; i < 7; i++) {
+		for(var i = 0; i < 6; i++) {
 			var item = group[i].title;
 			var biliurl = group[i].link;
 			items.push(item);
