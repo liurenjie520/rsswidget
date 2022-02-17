@@ -9,7 +9,7 @@ const preview = "medium";
 const spacing = 5;
 // 填写RSS订阅链接,默认为仓库的最近Commit
 // Fill in the RSS subscription link, the default is the latest Commit of the Repo
-var rsslink = "https://raw.githubusercontent.com/liurenjie520/hupurss/master/XML_Cfan.xml";
+var rsslink = "https://raw.githubusercontent.com/liurenjie520/rsshupuv2/master/XML_Cfan.xml";
 try {
 	const con = importModule("Config");
 	rsslink = con.rsslink();
