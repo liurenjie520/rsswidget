@@ -16,7 +16,16 @@ const scripts = [
     url:
       "https://raw.githubusercontent.com/liurenjie520/rsswidget/master/%E5%B0%91%E6%95%B0%E6%B4%BE.js",
   },
-  
+  {
+    moduleName: "kuan.js",
+    url:
+      "https://raw.githubusercontent.com/liurenjie520/rsswidget/master/kuan.js",
+  },
+  {
+    moduleName: "wuai.js",
+    url:
+      "https://raw.githubusercontent.com/liurenjie520/rsswidget/master/wuai.js",
+  },
   
   {
     moduleName: "数字尾巴.js",
