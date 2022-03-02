@@ -22,10 +22,54 @@ const scripts = [
       "https://raw.githubusercontent.com/liurenjie520/rsswidget/master/kuan.js",
   },
   {
-    moduleName: "wuai.js",
+    moduleName: "酷安图文编辑精选",
     url:
-      "https://raw.githubusercontent.com/liurenjie520/rsswidget/master/wuai.js",
+      "https://github.com/liurenjie520/rsswidget/blob/master/%E9%85%B7%E5%AE%89%E5%9B%BE%E6%96%87%20-%20%E7%BC%96%E8%BE%91%E7%B2%BE%E9%80%89.js",
   },
+  {
+    moduleName: "酷安新鲜图文",
+    url:
+      "https://raw.githubusercontent.com/liurenjie520/rsswidget/master/%E9%85%B7%E5%AE%89%20-%20%E6%96%B0%E9%B2%9C%E5%9B%BE%E6%96%87.js",
+  },
+  
+  {
+    moduleName: "吾爱今日热帖",
+    url:
+      "https://raw.githubusercontent.com/liurenjie520/rsswidget/master/%E4%BB%8A%E6%97%A5%E7%83%AD%E5%B8%96.js",
+  },
+  {
+    moduleName: "吾爱原创发布区",
+    url:
+      "https://raw.githubusercontent.com/liurenjie520/rsswidget/master/%E5%8E%9F%E5%88%9B%E5%8F%91%E5%B8%83%E5%8C%BA.js",
+  },
+  {
+    moduleName: "吾爱逆向资源区",
+    url:
+      "https://raw.githubusercontent.com/liurenjie520/rsswidget/master/%E9%80%86%E5%90%91%E8%B5%84%E6%BA%90%E5%8C%BA.js",
+  },
+  {
+    moduleName: "吾爱精品软件区",
+    url:
+      "https://raw.githubusercontent.com/liurenjie520/rsswidget/master/%E7%B2%BE%E5%93%81%E8%BD%AF%E4%BB%B6%E5%8C%BA.js",
+  },
+  {
+    moduleName: "吾爱最新软件",
+    url:
+      "https://raw.githubusercontent.com/liurenjie520/rsswidget/master/%E6%9C%80%E6%96%B0%E8%BD%AF%E4%BB%B6.js",
+  },
+  
+  {
+    moduleName: "吾爱最新热门",
+    url:
+      "https://raw.githubusercontent.com/liurenjie520/rsswidget/master/%E6%9C%80%E6%96%B0%E7%83%AD%E9%97%A8.js",
+  },
+  
+  {
+    moduleName: "吾爱最新发表",
+    url:
+      "https://raw.githubusercontent.com/liurenjie520/rsswidget/master/%E6%9C%80%E6%96%B0%E5%8F%91%E8%A1%A8.js",
+  },
+  
   
   {
     moduleName: "数字尾巴.js",
