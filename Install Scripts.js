@@ -57,6 +57,11 @@ const scripts = [
     url:
       "https://raw.githubusercontent.com/liurenjie520/rsswidget/master/%E6%9C%80%E6%96%B0%E8%BD%AF%E4%BB%B6.js",
   },
+  {
+    moduleName: "脱壳破解区",
+    url:
+      "https://raw.githubusercontent.com/liurenjie520/rsswidget/master/%E8%84%B1%E5%A3%B3%E7%A0%B4%E8%A7%A3%E5%8C%BA.js",
+  },
   
   {
     moduleName: "吾爱最新热门",
